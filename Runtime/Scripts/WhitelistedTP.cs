@@ -5,6 +5,7 @@ using VRC.SDKBase;
 namespace valenvrc.WhitelistedTP
 {
     [UdonBehaviourSyncMode(BehaviourSyncMode.None)]
+    [DisallowMultipleComponent, Icon("Packages/com.valenvrc.whitelistedtp/Editor/Resources/whitelistedtpicon.png"), HelpURL("https://docs.valenvrc.com/free-assets/whitelisted-tp")]
     public class WhitelistedTP : UdonSharpBehaviour
     {
         [SerializeField, Tooltip("Should the teleport use a whitelist?")]
