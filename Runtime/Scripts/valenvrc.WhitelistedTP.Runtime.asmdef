@@ -1,5 +1,5 @@
 {
-    "name": "valenvrc.Valenvrc.WhitelistedTP.Runtime",
+    "name": "valenvrc.WhitelistedTP.Runtime",
     "rootNamespace": "",
     "references": [
         "GUID:99835874ee819da44948776e0df4ff1d",
