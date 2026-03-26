@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5136146375e9a0a498a72a0091b40cc1, type: 3}
   m_Name: valenvrc.WhitelistedTP
   m_EditorClassIdentifier: 
-  sourceAssembly: {fileID: 5897886265953266890, guid: bd37cf7230c0e674a9dbb187395d3cb6,
+  sourceAssembly: {fileID: 5897886265953266890, guid: 0bd531ec9d7f9aa45abba66385c79509,
     type: 3}
