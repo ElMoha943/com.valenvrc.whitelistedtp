@@ -19,5 +19,8 @@ jobs:
 
     uses: ElMoha943/github-workflows/.github/workflows/update-package-listing.yml@master
 
+    with:
+      version: ${{ needs.publish.outputs.version }}
+
     secrets:
       LISTING_TOKEN: ${{ secrets.LISTING_TOKEN }}
