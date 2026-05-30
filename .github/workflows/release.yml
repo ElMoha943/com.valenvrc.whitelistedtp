@@ -9,8 +9,6 @@ jobs:
 
   publish:
     uses: ElMoha943/github-workflows/.github/workflows/release-package.yml@master
-    with:
-      package_file: package.json
 
   update-listing:
     needs: publish
