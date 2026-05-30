@@ -1,14 +1,16 @@
 name: Publish Package
 
 on:
-  workflow_dispatch:
+  push:
+    branches:
+      - main
 
 jobs:
 
   publish:
     uses: ElMoha943/github-workflows/.github/workflows/release-package.yml@master
     with:
-      package_file: Packages/com.valenvrc.common/package.json
+      package_file: Packages/com.valenvrc.whitelistedtp/package.json
 
   update-listing:
     needs: publish
